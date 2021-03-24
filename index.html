@@ -366,7 +366,6 @@ body.fullscreen .col-calculator {
   float: left;
   transform:rotate(90deg);
   width: 100%;
-
 }
 a.action {
   display: block;
@@ -389,10 +388,9 @@ a.action svg {
   position: relative;
   display: inline-block;
   text-align: left;
-  
 }
 .calculator-container > img {
-  max-height: 92.0vh;
+  max-height: 1890px;
   max-width: 100%;
   display: block;
 }
@@ -417,9 +415,9 @@ a.action svg {
 }
     </style>
   </head>
-  <body>
+  <body style="overflow: hidden">
     <div class="row">
-      <div class="col-calculator">
+      <div class="col-calculator" style="transform:rotate(90deg);">
         <div class="calculator-container">
           <img src="background.jpg" alt="NumWorks Calculator">
 <div class="calculator loading">

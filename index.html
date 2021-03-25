@@ -7,6 +7,7 @@
     <title>NumWorks graphing calculator</title>
     <style>
 .calculator {
+  scroll-snap-destination: 100%;
   position: relative;
 }
 .calculator-aspect-ratio {
@@ -388,9 +389,10 @@ a.action svg {
   position: relative;
   display: inline-block;
   text-align: left;
+  transform: translate(-475px,0px);
 }
 .calculator-container > img {
-  max-height: 1890px;
+  max-height: 1880px;
   max-width: 100%;
   display: block;
 }
@@ -415,7 +417,7 @@ a.action svg {
 }
     </style>
   </head>
-  <body style="overflow: hidden">
+  <body scroll="no" style="overflow: hidden">
     <div class="row">
       <div class="col-calculator" style="transform:rotate(90deg);">
         <div class="calculator-container">
